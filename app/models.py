@@ -31,11 +31,13 @@ class Subtracao(Operacao):
 
 
 class Multiplicacao(Operacao):
+    impressora.imprimir('Multiplicação sendo efetuada...')
     def calcular(self):
         return self.p1 * self.p2
 
 
 class Divisao(Operacao):
+    impressora.imprimir('Divisão sendo efetuada...')
     def calcular(self):
         return self.p1 / self.p2
 
